@@ -1,0 +1,11 @@
+div.container {
+	background-color: #6f42c1;
+}
+
+div.container-fluid {
+	background-color: #17a2b8;
+}
+
+div.container div.row div.col-6 {
+	background-color: #17a2b8;
+}

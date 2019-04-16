@@ -1,0 +1,26 @@
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; /* distancia da borda */
+}
+
+ul.menu li {
+	float: left; /* faz os elementos flutuarem*/
+}
+
+ul.menu a:link, ul.menu a:visited {
+	display: block;
+	width: 120px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #5882FA;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+}
+
+ul.menu a:hover, ul.menu a:active {
+	color: #000;
+	background-color: #A9A9F5;
+
+}

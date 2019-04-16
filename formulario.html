@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exemplo de Formulário Acessível</title>
+	
+</head>
+<body>
+	<h1>Este é um exemplo de formulário acessível</h1>
+
+	<!--Acessar o accesskey: 
+	* Firefox: alt + shift + accesskey(letra escolhida)
+	* Chrome: alt + accesskey(letra escolhida ou tecla de atalho)
+	* IE: alt + accesskey -->
+
+	<form action="" method="post">
+		<label for="nome">Nome: </label>
+		<br>
+		<input type="text" name="nome" id="nome" accesskey="n"> <!-- conteúdo de 'id' tem que ser igual ao 'for' -->
+		<br><br>
+
+		<label for="cpf">CPF: </label>
+		<br>
+		<input type="text" name="cpf" id="cpf" accesskey="c">
+		<br><br>
+
+		<label for="alimentos">Alimentos Preferidos:</label>
+		<br>
+		<select name="alimentos" id="alimentos" accesskey="a">
+			<optgroup label="Lacticínios">
+			<option value="queijo">Queijo</option>
+			<option value="requeijao">Requeijão</option>
+			</optgroup>
+
+			<optgroup label="Vegetais">
+			<option value="alface">Alface</option>
+			<option value="alho">Alho</option>
+			<option value="cenoura">Cenoura</option>
+			<option value="pimentao">Pimentão</option>
+			</optgroup>
+
+			<optgroup label="Frutas">
+			<option value="abacaxi">Abacaxi</option>
+			<option value="banana">Banana</option>
+			<option value="manga">Manga</option>
+			</optgroup>
+		</select>
+
+		<br><br>
+
+		<input type="submit" value="Enviar">
+
+
+	</form>
+	
+
+</body>
+</html>
